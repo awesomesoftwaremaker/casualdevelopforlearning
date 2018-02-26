@@ -5,19 +5,20 @@
 
 const int multidimensional_array [][COL] = {{1, 2, 3}, {4, 5, 6}};
 
-int indexing (int x, int y)
+int indexing ()
 {
-
+    return MDA [x][y];
 }
 
-int increment (int x, int y)
+int increment ()
 {
-
+    return *(*(MDA + x) + y);
 }
 
-int pointer (int x, int y)
+int pointer ()
 {
-
+    int value = (x * COL) + y;
+    return *(*MDA + value);
 }
 
 int main ()
