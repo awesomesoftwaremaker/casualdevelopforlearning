@@ -25,8 +25,8 @@ int pointer ()
 int main ()
 {
     printf("enter x and y\n");
-    scanf("%d%d", x, y);
-    printf("%d%d%d", indexing, increment, pointer);
+    scanf("%d%d", &x, &y);
+    printf("%d\n%d\n%d\n", &indexing, &increment, &pointer);
     getchar();
 
 }
