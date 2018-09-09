@@ -11,5 +11,5 @@ int main()
 
     float Xrray [4][4]={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
-    cout << Array[3][3] << endl << Brray[3] << endl << Xrray [3][3];
+    cout << Array[3][3] << endl << Brray[3] << endl << Xrray [3][3] << "here's an aliens, and we love to hack u'r machine learning";
 }
